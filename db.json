@@ -1,0 +1,40 @@
+{
+    "cities": [
+      {
+        "id": 1,
+        "name": "Marrakech",
+        "contry": "Morocco",
+        "image": "https://moroccofriendlytravel.com/wp-content/uploads/2022/05/Koutoubia-Mosque-1024x683.jpg",
+        "description": "Delish. Can't go wrong with a classic!"
+      },
+      {
+        "id": 2,
+        "name": "Lagos",
+        "contry": "Nigeria",
+        "image": "https://i.pinimg.com/564x/3c/01/b6/3c01b6ff9a107b224e8eea69fc429293.jpg",
+        "description": "Delish. Can't go wrong with a classic!"
+      },
+      {
+        "id": 3,
+        "name": "Cape Town",
+        "contry": "South Africa",
+        "image": "https://media.cntraveler.com/photos/5b742b0b9718bc562f0ff4a2/16:9/w_2560,c_limit/Camps-Bay_GettyImages-719878751.jpg",
+        "description": "Delish. Can't go wrong with a classic!"
+       
+      },
+      {
+        "id": 1,
+        "name": "Accra",
+        "contry": "Ghana",
+        "image": "https://media.cnn.com/api/v1/images/stellar/prod/190206165057-senya-beraku.jpg?q=w_1600,h_900,x_0,y_0,c_fill",
+        "description": "Delish. Can't go wrong with a classic!"
+      },
+      {
+        "id": 1,
+        "name": "Cairo",
+        "contry": "Egypt",
+        "image": "https://community.thriveglobal.com/wp-content/uploads/2020/09/1-4.jpg",
+        "description": "Delish. Can't go wrong with a classic!"
+      }
+    ]
+  }
