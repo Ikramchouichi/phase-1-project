@@ -3,21 +3,15 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>5 Popular African You Must See</title>
+  <title>5 Popular African Cities You Must See</title>
   <link rel="stylesheet" type="text/css" href="styles.css" />
-   <script defer type="text/javascript" src="./src/index.js"></script>
-
+  <script defer type="text/javascript" src="./src/index.js"></script>
 </head>
 
 <body>
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    
-=======
-=======
->>>>>>> 3cb334b69d5d4e802c69aaed1b0616c47c8e7852
+
   <header>
-    <h3>African Cities Explorer</h3>
+    <h1>5 Popular African Cities You Must See</h1>
   </header>
 
   <!-- City List -->
@@ -31,44 +25,33 @@
     <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
     <h2 class="name">Insert Name Here</h2>
     <h3 class="country">Insert Country Here</h3>
+    <h3>Rating:</h3>
+    <p>
+      <span id='rating-display'>Insert rating here</span> / 10
+    </p>
+    <h3>Description:</h3>
+    <p id='description-display'>
+      Insert description here
+    </p>
   </div>
 
-  <h3>Rating:</h3>
-  <p>
-    <span id='rating-display'>Insert rating here</span> / 10
-  </p>
-<<<<<<< HEAD
-  <h3>Comment:</h3>
-=======
-  <h3>Description:</h3>
->>>>>>> 3cb334b69d5d4e802c69aaed1b0616c47c8e7852
-  <p id='description-display'>
-    Insert description here
-  </p>
+  <!-- Comment Section -->
+  <div id="comment-section">
+    <h3>Comments:</h3>
+    <ul id="comments-list">
+      <!-- Comments will be added using JavaScript -->
+    </ul>
 
-  <!-- New City Form -->
-  <form id="new-city">
-<<<<<<< HEAD
+    <!-- New Comment Form -->
+    <form id="new-comment-form">
+      <h4>Add New Comment</h4>
+      <label for="comment-text">Comment: </label>
+      <textarea name="comment-text" id="comment-text"></textarea>
+      <input type="submit" value="Add Comment" />
+    </form>
+  </div>
 
-  </form>
-
->>>>>>> Stashed changes
-=======
-    <h4>Add New City</h4>
-    <label for="name">Name: </label>
-    <input type="text" name="name" id="new-name" />
-    <label for="country">Country: </label>
-    <input type="text" name="country" id="new-country" />
-    <label for="image">Image: </label>
-    <input type="text" name="image" id="new-image" />
-    <label for="rating">Rating: </label>
-    <input type="number" name="rating" id="new-rating" />
-    <label for="new-description">Description: </label>
-    <textarea name="new-description" id="new-description"></textarea>
-    <input type="submit" value="Create" />
-  </form>
-
->>>>>>> 3cb334b69d5d4e802c69aaed1b0616c47c8e7852
+  <script defer type="text/javascript" src="./src/index.js"></script>
 </body>
 
 </html>
