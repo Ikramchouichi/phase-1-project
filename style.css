@@ -135,7 +135,9 @@ body {
       justify-content: center;
     }
   }
-  @media(max-width: 767px) {
+  @media(max-width: 767px) 
+  {
     .landing-page-right-side {
       display: none;
+        }
     }
