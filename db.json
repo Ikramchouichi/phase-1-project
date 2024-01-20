@@ -23,17 +23,24 @@
        
       },
       {
-        "id": 1,
+        "id": 4,
         "name": "Accra",
         "contry": "Ghana",
         "image": "https://media.cnn.com/api/v1/images/stellar/prod/190206165057-senya-beraku.jpg?q=w_1600,h_900,x_0,y_0,c_fill",
         "description": "Delish. Can't go wrong with a classic!"
       },
       {
-        "id": 1,
+        "id": 5,
         "name": "Cairo",
         "contry": "Egypt",
         "image": "https://community.thriveglobal.com/wp-content/uploads/2020/09/1-4.jpg",
+        "description": "Delish. Can't go wrong with a classic!"
+      },
+      {
+        "id": 6,
+        "name": "Nairobi",
+        "contry": "kenya",
+        "image": "https://www.toursbylocals.com/images/guides/23/23082/2021223103206836.jpg",
         "description": "Delish. Can't go wrong with a classic!"
       }
     ]
