@@ -5,7 +5,24 @@
           cities.forEach(renderCity);
         });
     }
+    document.addEventListener('DOMContentLoaded', () => {
+      const commentForm = document.getElementById('new-comment-form');
+      const commentsList = document.querySelector('.landing-page-cards-container');
 
+      commentForm.addEventListener('submit', (event) => {
+          event.preventDefault();
+
+          const commentText = document.getElementById('comment-text').value.trim();
+
+          if (commentText) {
+              const newCommentItem = document.createElement('div');
+              newCommentItem.textContent = commentText;
+
+              commentsList.appendChild(newCommentItem);
+              document.getElementById('comment-text').value = '';
+          }
+      });
+  });
 
     function renderCity(city) {
       const cityList = document.getElementById('city-list');
@@ -65,6 +82,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function addComment(commentText) {
       const newCommentItem = document.createElement('li');
       newCommentItem.textContent = commentText;
-
       commentsList.appendChild(newCommentItem);
     }
+  })
