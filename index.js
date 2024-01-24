@@ -82,7 +82,5 @@ commentForm.addEventListener('submit', (event) => {
 
 function addComment(commentText) {
   const newCommentItem = document.createElement('li');
-  newCommentItem.textContent = commentText;
-
-  commentsList.appendChild(newCommentItem);
-}
+  newCommentItem.textContent = commentText;  commentsList.appendChild(newCommentItem);
+}})
