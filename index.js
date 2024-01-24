@@ -6,6 +6,7 @@
         });
     }
 
+
     function renderCity(city) {
       const cityList = document.getElementById('city-list');
 
@@ -13,25 +14,37 @@
       const cityContainer = document.createElement('div');
       cityContainer.className = 'city-container';
 
-      const img = document.createElement('img');
-      img.src = city.image;
-      img.alt = city.name;
+    const img = document.createElement('img');
+    img.src = city.image;
+    img.className = 'place-card-image';
+    cardContent.appendChild(img);
 
-      const nameElement = document.createElement('h2');
-      nameElement.textContent = city.name;
+    const span = document.createElement('span');
+    span.textContent = city.name;
+    cardContent.appendChild(span);
 
-      const countryElement = document.createElement('h3');
-      countryElement.textContent = city.country;
+    const descriptionSpan = document.createElement('span');
+    descriptionSpan.textContent = city.description;
+    cardContent.appendChild(descriptionSpan);
 
-      // Append elements to city container
-      cityContainer.appendChild(img);
-      cityContainer.appendChild(nameElement);
-      cityContainer.appendChild(countryElement);
 
-      // Append city container to city list
-      cityList.appendChild(cityContainer);
-    }
+    cardContainer.appendChild(cardContent);
+    cardsContainer.appendChild(cardContainer);
+}
+function changeBackgroundImage() {
+    const bannerContainer = document.querySelector('.landing-page-top-container');
 
+    bannerContainer.addEventListener('mouseover', function() {
+        this.style.backgroundImage = "url('./images/travel1.png')"; // New image when mouseover
+    });
+
+    bannerContainer.addEventListener('mouseout', function() {
+        this.style.backgroundImage = "url('./images/travel.png')"; // Original image when mouseout
+    });
+}
+
+// Call the functions
+document.addEventListener('DOMContentLoaded', () => {
     getAllCities();
 
     // Handle adding new comments
