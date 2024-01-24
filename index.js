@@ -29,9 +29,28 @@ function getAllCities(){
 
     const descriptionSpan = document.createElement('span');
     descriptionSpan.textContent = city.description;
+    descriptionSpan.style.display = 'none';
     cardContent.appendChild(descriptionSpan);
+    
+    const divButton = document.createElement('div');
+    divButton.className = '.solid-button-button';
+    cardContainer.appendChild(divButton);
 
+     const button =  document.createElement('button');
+     button.className = "outline-button-container"
+     cardContent.appendChild(button);
 
+     const spanButton = document.createElement('span');
+     spanButton.textContent = "discover the place"
+    button.appendChild(spanButton);
+    
+    function toggleDescription() {
+        const isHidden = descriptionSpan.style.display === 'none';
+        descriptionSpan.style.display = isHidden ? 'block' : 'none';
+    }
+
+   
+    button.addEventListener('click', toggleDescription);
     cardContainer.appendChild(cardContent);
     cardsContainer.appendChild(cardContainer);
 }
@@ -47,8 +66,9 @@ function changeBackgroundImage() {
     });
 }
 
-// Call the functions
-document.addEventListener('DOMContentLoaded', () => {
+
+function init(){
     getAllCities();
     changeBackgroundImage();
-});
+}
+document.addEventListener('DOMContentLoaded', init)
