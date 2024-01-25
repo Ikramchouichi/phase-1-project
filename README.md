@@ -1,33 +1,30 @@
 ## READ ME for our first project.
 
-### Overview 
+### Overview
 
-This HTML file is designed to present "Most Famous Places", which provides a web interface for users to explore recommended places. It uses external CSS and JavaScript files for styling and functionality. 
+This HTML file is designed to present "Popular African Cities to Visit", which provides a web interface for users to explore recommended places, rate their favorite pic, and leave a comment/review. It uses external CSS and JavaScript files for styling and functionality.
 
-### File Structure 
+### File Structure
 
-- index.html: The main HTML file. 
-- style.css: CSS file for formatting HTML content. 
-- index.js: JavaScript file for dynamic interactions. 
+- index.html: The main HTML file.
+- style.css: CSS file for formatting HTML content.
+- index.js: JavaScript file for dynamic interactions.
 
-### Basic Features 
+### Basic Features
 
-**Home:** Includes upper tank and main body. 
-**Main section:** includes heading titled "Most Famous Placesquot; and the subtitle "Recommended andquot;. 
-**Social Media Links:** Footer section with social media icons and links (Twitter, Facebook, Instagram, GitHub, 500px, phone, email) 
+City Showcase: Dive into a visual journey through five popular African cities, each with a stunning picture capturing the essence of the locale.
+Like or Dislike: Express your preferences by liking or disliking the pictures. Your feedback helps create a dynamic and user-driven experience.
+Comments Section: Engage with the community! Share your thoughts, experiences, or travel tips in the comments section for each city.
 
-### Usage 
-
-**To view the page:** To view the page, open index.html in a web browser. 
-**Add content:** Fill .landing-page-cards-container with content cards to show famous places. 
-**Style Customization:** Change the appearance of the page by editing the style.css file. 
-**Dynamic Features:** Enable JavaScript in index.js for interactive components. 
-Dependencies 
+### How to Use
+Homepage: Start on the homepage, where you'll find images featuring the cities. Mouseover on a city to begin your visual adventure.
+Like or Dislike: As you browse through the pictures, use the like or dislike buttons to provide feedback on the content.
+Comments: Scroll down to the comments section to read and contribute to the community discussions.
 
 *A modern web browser that supports HTML5, CSS3 and JavaScript.*
-*Social Media Integration* 
+*Social Media Integration*
 
-Social media links are currently placeholders. Replace href="#" with actual URLs to link to specific social media profiles.
-
-### Contributors 
-To contribute, merge the archive, make changes and submit a pull request.
+### Contributors
+Isaac Cotton
+Ikram Chouichi
+TaKeya McFadden
