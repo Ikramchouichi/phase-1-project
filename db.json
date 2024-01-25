@@ -1,47 +1,62 @@
 {
-    "cities": [
-      {
-        "id": 1,
-        "name": "Marrakech",
-        "contry": "Morocco",
-        "image": "https://moroccofriendlytravel.com/wp-content/uploads/2022/05/Koutoubia-Mosque-1024x683.jpg",
-        "description": "Delish. Can't go wrong with a classic!"
-      },
-      {
-        "id": 2,
-        "name": "Lagos",
-        "contry": "Nigeria",
-        "image": "https://i.pinimg.com/564x/3c/01/b6/3c01b6ff9a107b224e8eea69fc429293.jpg",
-        "description": "Delish. Can't go wrong with a classic!"
-      },
-      {
-        "id": 3,
-        "name": "Cape Town",
-        "contry": "South Africa",
-        "image": "https://media.cntraveler.com/photos/5b742b0b9718bc562f0ff4a2/16:9/w_2560,c_limit/Camps-Bay_GettyImages-719878751.jpg",
-        "description": "Delish. Can't go wrong with a classic!"
-       
-      },
-      {
-        "id": 4,
-        "name": "Accra",
-        "contry": "Ghana",
-        "image": "https://media.cnn.com/api/v1/images/stellar/prod/190206165057-senya-beraku.jpg?q=w_1600,h_900,x_0,y_0,c_fill",
-        "description": "Delish. Can't go wrong with a classic!"
-      },
-      {
-        "id": 5,
-        "name": "Cairo",
-        "contry": "Egypt",
-        "image": "https://community.thriveglobal.com/wp-content/uploads/2020/09/1-4.jpg",
-        "description": "Delish. Can't go wrong with a classic!"
-      },
-      {
-        "id": 6,
-        "name": "Nairobi",
-        "contry": "kenya",
-        "image": "https://www.toursbylocals.com/images/guides/23/23082/2021223103206836.jpg",
-        "description": "Delish. Can't go wrong with a classic!"
-      }
-    ]
-  }
+  "cities": [
+    {
+      "id": 1,
+      "name": "Marrakech",
+      "contry": "Morocco",
+      "image": "https://moroccofriendlytravel.com/wp-content/uploads/2022/05/Koutoubia-Mosque-1024x683.jpg",
+      "description": "Marrakech, the heartbeat of Moroccan culture, invites you to a sensory feast in its vibrant souks and lush gardens; marvel at the enchanting fusion of Arab, Berber, and European influences in a city where every corner tells a story",
+     "like": 0,
+     "dislike": 0
+    },
+    {
+      "id": 2,
+      "name": "Lagos",
+      "contry": "Nigeria",
+      "image": "https://i.pinimg.com/564x/3c/01/b6/3c01b6ff9a107b224e8eea69fc429293.jpg",
+      "description": "Lagos, Nigeria's dynamic heartbeat, pulses with a vibrant mix of Afrobeat rhythms and cosmopolitan energy; dive into this bustling metropolis for an unforgettable adventure through colorful markets and stunning Atlantic beaches",
+      "like": 0,
+      "dislike": 0
+    },
+    {
+      "id": 3,
+      "name": "Cape Town",
+      "contry": "South Africa",
+      "image": "https://media.cntraveler.com/photos/5b742b0b9718bc562f0ff4a2/16:9/w_2560,c_limit/Camps-Bay_GettyImages-719878751.jpg",
+      "description": "Mountains meet the ocean with hiking to vinyards to the beach",
+      "like": 0,
+      "dislike": 0
+
+      
+    },
+    {
+      "id": 4,
+      "name": "Accra",
+      "contry": "Ghana",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/190206165057-senya-beraku.jpg?q=w_1600,h_900,x_0,y_0,c_fill",
+      "description": "In the day visit historic land marks. At night dance the night away.",
+      "like": 0,
+      "dislike":0
+    },
+    {
+      "id": 5,
+      "name": "Cairo",
+      "contry": "Egypt",
+      "image": "https://community.thriveglobal.com/wp-content/uploads/2020/09/1-4.jpg",
+      "description": "History's history and one of the 7 wonders of the world. Explore the pyrmids. ",
+      "like": 0,
+      "dislike":0
+    },
+    {
+      "id": 6,
+      "name": "Nairobi",
+      "contry": "kenya",
+      "image": "https://www.toursbylocals.com/images/guides/23/23082/2021223103206836.jpg",
+      "description": "Nairobi, Kenya's pulsating capital, offers an extraordinary blend of vibrant urban life and captivating natural wonders; immerse yourself in its rich cultural heritage and embark on unforgettable safaris at the doorstep of the city's skyscrapers",
+      "like":0,
+      "dislike":0
+
+      
+    }
+  ]
+}
